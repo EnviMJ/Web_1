@@ -1,0 +1,64 @@
+*{
+  text-align: center; 
+}
+body{
+  background-color : lavender;
+}
+
+header, footer { 
+  padding: 24px 16px; 
+}
+
+h1{
+  font-size: 50px;
+}
+
+
+.subtitle { 
+  margin: 0; 
+  color: #666; 
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+
+  padding : 1%;
+  gap : 10px; 
+}
+
+.card {
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  background: linear-gradient(#ff7ab6, #7a67ff);
+    
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#A{
+  background-image : url('https://cdn.travie.com/news/photo/202505/54296_39721_226.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#E{
+  background-image : url('https://i.namu.wiki/i/a4Jxay3jPonHLyNuiTPkT3l1969bj3GPv5RUhu1UzkVohutagz_JYZhdZbNdDMwrUeMBPwlD7ioCUnYrbTUboDUP2TGHJDWtHAbYgxOXlCihnimlSiU5pnZkrOgXEzeT2FJHMHvQlaQ8J5mr7UqnQQ.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* 보너스: hover */
+.card:hover {
+  transform: translateY(-4px);
+  transition: transform .15s ease;
+}
